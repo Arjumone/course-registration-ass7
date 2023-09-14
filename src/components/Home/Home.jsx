@@ -59,7 +59,7 @@ const Home = () => {
               </div>
               <div className='flex flex-col lg:flex-row justify-between my-2 font-bold'>
                 <p>Price:{course.price} </p>
-                <p> Credit Time{course.credit_time}</p>
+                <p> Credit Time:{course.credit_time}</p>
               </div>
               <div className=' text-center'>
               <button onClick={() => handleSelectCourse(course)} className=" btn  bg-blue-500 hover:bg-blue-700 text-white w-full">Select</button>
