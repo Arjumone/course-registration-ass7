@@ -57,7 +57,7 @@ const Home = () => {
                 </small>
               </p>
               </div>
-              <div className='flex  flex-col lg:flex-row justify-between my-2 font-bold'>
+              <div className='flex flex-col lg:flex-row justify-between my-2 font-bold'>
                 <p>Price:{course.price} </p>
                 <p> Credit Time{course.credit_time}</p>
               </div>
