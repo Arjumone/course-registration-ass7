@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <div className="container mx-auto">
       <div className="home-container flex flex-col lg:flex-row space-x-20">
-        <div className="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:w-3/4">
+        <div className="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:w-3/4">
           {courses.map((course) => (
             <div
               className="border-2 p-5 rounded-lg bg-white h-full w-full"
@@ -49,7 +49,7 @@ const Home = () => {
               <div>
                 <h2 className=" mt-1 font-bold ">{course.course_name}</h2>
                 <p className=" my-2">
-                  <small>{course.description}</small>
+                  <small className=" h-6">{course.description}</small>
                 </p>
               </div>
               <div className="flex flex-col lg:flex-row justify-between my-2 font-bold">
