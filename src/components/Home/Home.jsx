@@ -36,7 +36,7 @@ const Home = () => {
   };
   return (
     <div className="container mx-auto">
-      <div className="home-container flex flex-col lg:flex-row space-x-20">
+      <div className="home-container flex flex-col lg:flex-row lg:space-x-20">
         <div className="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:w-3/4">
           {courses.map((course) => (
             <div
