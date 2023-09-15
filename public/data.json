@@ -5,15 +5,15 @@
         "course_name": "Introduction to C Programming",
         "description": "Learn the basics of web development, including HTML, CSS, and JavaScript.",
         "credit_time": 5,
-        "price": "$49.99"
+        "price": "4000"
     },
     {
         "id": 2,
         "image": "https://i.ibb.co/bQzQJCD/Rectangle-2.png",
-        "course_name": "Introduction to Algorithms",
-        "description": "Explore data analysis and machine learning in Python.Learn to hard of Python.",
+        "course_name": "Introduction to the Algorithms",
+        "description": "Explore data analysis and machine learning in Python.Learn to hard.",
         "credit_time": 6,
-        "price": "$79.99"
+        "price": "7000"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "course_name": "Introduction to C++ for DSA",
         "description": "Master Adobe Photoshop, Illustrator, and InDesign for graphic design projects.",
         "credit_time": 4,
-        "price": "$59.99"
+        "price": "3500"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "course_name": "Basic Data Structures",
         "description": "Build cross-platform mobile apps using React Native and JavaScript.",
         "credit_time": 7,
-        "price": "$69.99"
+        "price": "6000"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "course_name": "Introduction to OOP Python",
         "description": "Learn to create effective digital marketing campaigns and strategies.",
         "credit_time": 3,
-        "price": "$54.99"
+        "price": "9000"
     },
     {
         "id": 6,
@@ -45,15 +45,15 @@
         "course_name": "Software Engineering",
         "description": "Get started with machine learning using Python and scikit-learn.",
         "credit_time": 8,
-        "price": "$74.99"
+        "price": "8000" 
     },
     {
         "id": 7,
         "image": "https://i.ibb.co/6HdJg93/Rectangle-3-1.png",
-        "course_name": "AWS, Cloud Computing",
-        "description": "Master financial and accounting principles for business.",
+        "course_name": "AWS, Cloud Computing and Accounting",
+        "description": "Master accounting principles for business.",
         "credit_time": 1,
-        "price": "$49.99"
+        "price": "4500"
     },
     {
         "id": 8,
@@ -61,14 +61,14 @@
         "course_name": "Database (MySQL)",
         "description": "Hone your creative writing skills and create compelling stories and content.",
         "credit_time": 9,
-        "price": "$44.99"
+        "price": "2500"
     },
     {
         "id": 9,
         "image": "https://i.ibb.co/QXqwbD1/Rectangle-2-6.png",
-        "course_name": "Problem-Solving Part",
+        "course_name": "Problem-Solving Part Courses",
         "description": "Learn the basics of photography, including composition  settings.",
         "credit_time": 2,
-        "price": "$39.99"
+        "price": "5500"
     }
 ]

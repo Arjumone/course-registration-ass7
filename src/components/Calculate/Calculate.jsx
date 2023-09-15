@@ -8,12 +8,12 @@ const Calculate = ({selectedCourse,totalHour,remainHour}) => {
       <h2 className=" text-3xl font-semibold mb-4">Course Name</h2>
       {
         selectedCourse.map((course,idx)=>(
-          <li className=' text-xl' key={idx}>
+          <li className=' text-xl list-decimal' key={idx}>
             {course.course_name}</li>
           ))
         }
         <hr className='my-4' />
-        <h2 className=" my-4 text-xl font-bold">Total Hours:{totalHour}</h2>
+        <h2 className=" my-4 text-xl font-bold">Total Credit Hours:{totalHour}</h2>
     </div>
   )
 }
