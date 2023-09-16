@@ -7,7 +7,7 @@ const Home = () => {
   const [courses, setCourses] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState([]);
   const [totalHour, setTotalHour] = useState(0);
-  const [remainHour, setRemainHour] = useState(0);
+  const [remainHour, setRemainHour] = useState(20);
 
   useEffect(() => {
     fetch("./data.json")
@@ -24,9 +24,8 @@ const Home = () => {
         hour = hour + crs.credit_time;
       });
       const remainTime = 20 - hour;
-      console.log(remainHour);
       if (hour > 20) {
-        swal("Ops!!! Sorry. Credit Hours limitation are finished");
+        swal("Oops!!! Sorry. Credit Hours limitation are finished");
       } else {
         setRemainHour(remainTime);
         setTotalHour(hour);
@@ -79,7 +78,7 @@ const Home = () => {
         </div>
         <div className="lg:w-1/4">
           <Calculate
-            selectedCourse={selectedCourse}
+             selectedCourse={selectedCourse}
             totalHour={totalHour}
             remainHour={remainHour}
           ></Calculate>
