@@ -48,7 +48,7 @@ const Home = () => {
               <div>
                 <h2 className=" mt-1 font-bold ">{course.course_name}</h2>
                 <p className=" my-2">
-                  <small className=" h-6">{course.description}</small>
+                  <small className="">{course.description}</small>
                 </p>
               </div>
               <div className="flex flex-col lg:flex-row justify-between my-2 font-bold">
